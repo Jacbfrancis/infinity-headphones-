@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 30px auto 30px;
+}
+
+h3{
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+}
+
+.rev-text{
+    margin: 25px 0 40px;
+    color: black;
+    font-size: 1.55rem;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+h5{
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: #34AAEA;
+    margin: 50px 0 30px;
+}
+
+.price{
+    color: #34AAEA;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3%;
+}
+
+h9{
+    color: grey;
+}
+
+.bdp{
+    color: #fff;
+    margin-top: 20px;
+}
+
+p{
+    color: grey;
+    line-height: 1.4;
+    font-size: 1.35rem;
+}
+
+.soph{
+    color: lightgrey;
+}
+
+.desc{
+    font-size: 1.0rem;
+    line-height: 1.5;
+}
+
+.desc-2{
+    margin: 30px 0 25px;
+}
+
+.sec{
+    font-size: 1.26rem;
+}
+
+.about-text{
+    color: #fff;
+    margin: 12px auto;
+    font-size: 1rem;
+}
+
+.copy{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 7%;
+}
+
+.nav-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    padding: 4%;
+}
+
+.sub{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 1.5;
+    margin: 17px 0;
+}
+
+.section-1{
+    padding: 30px 0 50px;
+    background-color: #EEF6FF;
+}
+
+.section-2{
+    background-color: #E2F5FF;
+    padding: 50px 4%;
+}
+
+.section-3{
+    background-color: #EEF6FF;
+}
+
+.wrapper{
+    background-color: #1D293F;
+}
+
+.review{
+    padding: 50px 4%;
+    text-align: center;
+}
+
+.top-container{
+    padding: 0 4%;
+}
+
+.bottom-container{
+    text-align: center;
+    padding: 40px 4% 60px;
+}
+
+
+.f-card{
+    padding: 0 4%;
+}
+
+.choice{
+    padding: 60px 4%;
+    color: #fff;
+}
+
+
+.crd{
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bcg{
+    background-color: #E4F6FE;
+    margin: 35px auto;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.contact{
+    background-color: #1D293F;
+}
+
+.about{
+    padding: 8% 4%;
+}
+
+.btn-strt{
+    background-color: #FE523B;
+    color: #fff;
+    padding: 14px 22px;
+    border-radius: 6px;
+    border-style: none;
+    margin-right: 20px;
+    display: none;
+    width: 150px;
+}
+
+.btn-strt:hover{
+    background-color: #FE705A;
+}
+
+
+.mble{
+    margin-top: 30px;
+    display: block;
+}
+
+.nav-img{
+    width: 30px;
+}
+
+
+.header-1{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.play-icon{
+    width: 17%;
+    margin-right: 10px;
+}
+
+.icon{
+    width: 50px;
+    margin: 30px auto;
+}
+
+.hphone-1{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.pop{
+    width: 100%;
+    margin: 6px 0 10px;
+}
+
+.holder{
+    width: 50px;
+    margin: 30px 10px 0 0;
+}
+
+.crd-img{
+    width: 85%;
+}
+
+
+
+
+
+
+@media(min-width: 760px){
+    
+    
+    h2{
+        font-size: 2.75rem;
+    }
+    
+    
+    nav{
+        padding: 3% 10%;
+    }
+    
+    .btn-strt{
+        display: inline-block;
+    }
+    
+    header{
+        padding: 0;
+    }
+    
+    .heading {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .top-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    .f-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .features{
+        width: 45%;
+    }
+    
+    .mid-container{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .choice{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .review{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .bottom-container{
+        width: 55%;
+        margin: auto;
+    }
+    
+    .p-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .crd{
+        width: 47%;
+    }
+
+}
