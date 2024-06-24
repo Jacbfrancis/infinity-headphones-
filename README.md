@@ -49,7 +49,7 @@ landing page made with HTML and CSS.
 
 ### Continued development
 
-  - Learn and build projects with Tailwind CSS.
+  - Learn Tailwind CSS.
   
 
 ### Useful resources
