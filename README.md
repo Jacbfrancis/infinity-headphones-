@@ -21,12 +21,7 @@ landing page made with HTML and CSS.
 ### Screenshot
 
   - ##### Desktop Layout
-![](screenshot_1.png)
-
-
-
-  - ##### Mobile layout 
-![](screenshot_2.png)
+![](screenshot_1.jpg)
 
 
 
@@ -41,15 +36,11 @@ landing page made with HTML and CSS.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Media Query
-- Responsive web design 
-- Desktop first workflow 
 
 
 ### Continued development
 
-  - Learn and build projects with Tailwind CSS.
+  - Learn Tailwind CSS.
   
 
 ### Useful resources
