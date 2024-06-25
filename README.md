@@ -21,7 +21,7 @@ landing page made with HTML and CSS.
 ### Screenshot
 
   - ##### Desktop Layout
-![](screenshot_1.jpg)
+![](images/screenshot_1.jpg)
 
 
 
